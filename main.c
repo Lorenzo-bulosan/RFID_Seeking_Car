@@ -52,49 +52,6 @@ void backtrack(char* list) {
    
 }
 
-// function to make the car move in desired direction
-//void Move_Car(char direction){
-//    
-//       
-//    if (direction=='w'){
-////        ClearDisplay;
-//        motor_forward(&motorL,&motorR,50);
-////        LCD_String("going forward");
-//
-//    }
-//    
-//    else{// (direction== 's'){
-//
-////            ClearDisplay;
-//            motor_reverse(&motorL,&motorR,50);
-////            LCD_String("going back");
-//
-//    }
-//    
-//    else if (direction=='a'){
-//           
-//            ClearDisplay;
-//            turn_left(&motorL,&motorR,50);
-//            LCD_String("turning left");
-//
-//    }
-//    
-//    else if (direction=='d'){
-//            ClearDisplay;
-//            turn_right(&motorL,&motorR,50);
-//            LCD_String("turning right");
-//
-//    }
-//    
-//    else if (direction=='z'){
-//            ClearDisplay;
-//            motor_stop(&motorL,&motorR);
-//            LCD_String("stopping");
-//    }
-     
-//}
-
-
 // Main function
 void main(void){ 
     // For motor
@@ -221,38 +178,6 @@ void main(void){
     while(1);
 } //end of main
     
-
-    // &&&
-//    reverse_direction = {'w'};
-//    char lengthk = sizeof(reverse_direction)/sizeof(reverse_direction[0]);
-//    for (k=0;k<=lengthk;k++){
-//        if (reverse_direction[k] == 'w'){
-//            motor_forward(&motorL,&motorR,60);
-//        }
-//        else if (reverse_direction[k] == 's'){
-//            motor_reverse(&motorL,&motorR,60);
-//        }
-//        else if (reverse_direction[k]=='a'){
-//            turn_left(&motorL,&motorR,45);
-//        }
-//        else if (reverse_direction[k]=='d'){
-//            turn_right(&motorL,&motorR,60);
-//        }
-//    }
-    // &&&
-
-
-//    
-//    //Move_Car(reverse_direction);
-//    //Move_Car(1);
-//    
-//    //while(*reverse_direction++){
-//    //    Move_Car(*reverse_direction++);
-//    //}
-//        
-//    while(1);
-    //LCD_String("bla");
-    //readRFID();
 
 
 
